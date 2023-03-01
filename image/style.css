@@ -1,0 +1,139 @@
+
+.bat{
+    margin-left: 12px;
+}
+.card{
+    margin-top: 30px;
+
+display: flex;
+
+  
+}
+.container{
+  
+  margin-right: 0;
+    flex-wrap: wrap;
+    margin-left: 190px;
+    /* border: 5px solid red */
+}
+.addbtn{
+    margin-right: 1rem;
+    color: white;
+    font-weight: bold;
+    margin-left: 17rem;
+
+}
+
+.add{
+    margin-top: 0;
+
+}
+.cards{
+    margin: 20px 30px;
+}
+
+.signupbtn{
+   
+}
+.item{
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.item:hover{
+    background: rgb(142, 140, 140);
+}
+.nttt{
+    background: #126cff;
+    
+    color: white;
+    font-weight: bold;
+}
+.searchbt{
+    color: white;
+    font-weight:bold;
+    margin-left: 20px;
+}
+.search{
+
+    padding: 0 30px;
+}
+.desc{
+  margin-left: 15rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.addcat{
+   margin-left: 20rem;
+    width: 20rem;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.cardbtn{
+    height: 16%;
+    position: relative;
+    top: 75%;
+    left: 2%;
+}
+.noti .shopping-cart{
+    position:relative;
+    bottom: 20px;
+}
+
+/* add item */
+.noti{
+    position: relative;
+    top: 20px;
+    left: 75px;
+    cursor: pointer;
+    width: 1%;
+
+  }
+  .noti::before{
+    content: attr(data-count);
+    position:absolute;
+    color: white;
+    right: 16px;
+    font-size: 15px;
+    text-align: center;
+    top: -12px;
+    width: 20px;
+    height: 20px;background: red;
+    border-radius: 50%;
+    opacity: 0;
+
+  }
+  .noti.zero::before{
+    opacity: 1;
+  }
+
+.select.display{
+    right: 0%;
+    z-index: 1;
+    width: 90%;
+    height: 200%;
+  }
+  .select{
+    background: #fef1f1;
+    position: relative;
+   width: 0;
+   height: 0;
+    right: -200%;
+    transition: 0.5s;
+    overflow-x: auto;
+    margin: auto;
+    
+
+  }
+
+  /* services css */
+  .servicecontainer{
+    font-size: 30px;
+    padding: 2rem;
+    margin: 6rem;
+    background: rgb(221, 229, 236);
+  }
+.service{
+    padding: 2rem;
+    font-size: 20px;
+}
